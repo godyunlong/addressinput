@@ -16,13 +16,6 @@ a correct address input form for any country in the world and can validate an
 address to highlight input errors like missing required fields or invalid
 values.
 
-## C++
-
-The C++ library (in very portable C++11) of _libaddressinput_ is used in address-related
-projects in [Chromium](http://www.chromium.org/Home).
-
-https://chromium.googlesource.com/chromium/src/+/master/third_party/libaddressinput/
-
 ## Java
 
 The Java library of _libaddressinput_ is written for use in
