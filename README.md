@@ -1,3 +1,7 @@
+the project from google,I just copy and release
+thanks google
+if google do't release .the project will retain
+
 # ![](https://github.com/google/libaddressinput/wiki/libaddressinput-icon-70x55.png) libaddressinput
 
 [![Build Status](https://travis-ci.org/googlei18n/libaddressinput.svg?branch=master)](https://travis-ci.org/googlei18n/libaddressinput)
