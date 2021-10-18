@@ -166,8 +166,8 @@ public final class StandardAddressVerifier {
     /**
      * Skips address fields that are not included in {@code addressFieldsToVerify}.
      */
-    private boolean verifyFieldIfSelected(LookupKey.ScriptType script, FieldVerifier verifier,
-        AddressField field, String value, AddressProblems problems) {
+    private boolean verifyFieldIfSelected(ScriptType script, FieldVerifier verifier,
+                                          AddressField field, String value, AddressProblems problems) {
       if (!isFieldSelected(field)) {
         return true;
       }
@@ -191,8 +191,8 @@ public final class StandardAddressVerifier {
    * Hook called by verify with each verifiable field, in order.  Override to provide pre- or
    * post-checks for all fields.
    */
-  protected boolean verifyField(LookupKey.ScriptType script, FieldVerifier verifier,
-      AddressField field, String value, AddressProblems problems) {
+  protected boolean verifyField(ScriptType script, FieldVerifier verifier,
+                                AddressField field, String value, AddressProblems problems) {
     Iterator<AddressProblemType> iter = getProblemIterator(field);
     while (iter.hasNext()) {
       AddressProblemType prob = iter.next();
@@ -219,8 +219,8 @@ public final class StandardAddressVerifier {
   /**
    * Hook for adding special checks for particular problems and/or fields.
    */
-  protected boolean verifyProblemField(LookupKey.ScriptType script, FieldVerifier verifier,
-      AddressProblemType problem, AddressField field, String datum, AddressProblems problems) {
+  protected boolean verifyProblemField(ScriptType script, FieldVerifier verifier,
+                                       AddressProblemType problem, AddressField field, String datum, AddressProblems problems) {
     return verifier.check(script, problem, field, datum, problems);
   }
 }

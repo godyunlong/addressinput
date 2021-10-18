@@ -18,6 +18,7 @@ package com.google.i18n.addressinput.common;
 
 import com.google.i18n.addressinput.common.LookupKey.KeyType;
 import com.google.i18n.addressinput.common.LookupKey.ScriptType;
+
 import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.List;

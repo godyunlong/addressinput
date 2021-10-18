@@ -193,7 +193,7 @@ public final class Util {
 
   /**
    * Returns a language code that the widget can use when fetching data, based on a {@link
-   * java.util.Locale} language and the current selected country in the address widget. This
+   * Locale} language and the current selected country in the address widget. This
    * method is necessary since we have to determine later whether a language is "local" or "latin"
    * for certain countries.
    *

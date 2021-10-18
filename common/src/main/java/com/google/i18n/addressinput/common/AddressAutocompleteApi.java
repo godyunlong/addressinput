@@ -1,6 +1,7 @@
 package com.google.i18n.addressinput.common;
 
 import com.google.common.util.concurrent.FutureCallback;
+
 import java.util.List;
 
 /**

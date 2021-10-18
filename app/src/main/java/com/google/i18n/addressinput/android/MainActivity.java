@@ -1,4 +1,4 @@
-package com.wexin.house.app;
+package com.google.i18n.addressinput.android;
 
 import androidx.appcompat.app.AppCompatActivity;
 

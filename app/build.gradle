@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
+    compileSdk 30
 
     defaultConfig {
-        applicationId "com.wexin.house.app"
-        minSdkVersion 21
-        targetSdkVersion 30
+        applicationId "com.google.i18n.addressinput.android"
+        minSdk 21
+        targetSdk 30
         versionCode 1
         versionName "1.0"
-
     }
 
     buildTypes {
