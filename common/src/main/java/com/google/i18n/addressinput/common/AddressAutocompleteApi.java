@@ -1,6 +1,6 @@
 package com.google.i18n.addressinput.common;
 
-import com.google.common.util.concurrent.FutureCallback;
+//import com.google.common.util.concurrent.FutureCallback;
 
 import java.util.List;
 
@@ -23,6 +23,6 @@ public interface AddressAutocompleteApi {
    * Given an unstructured address query, getAutocompletePredictions fetches autocomplete
    * suggestions for the intended address and provides these suggestions via the callback.
    */
-  void getAutocompletePredictions(
-      String query, FutureCallback<List<? extends AddressAutocompletePrediction>> callback);
+//  void getAutocompletePredictions(
+//      String query, FutureCallback<List<? extends AddressAutocompletePrediction>> callback);
 }
